@@ -1,0 +1,36 @@
+{
+  "name": "twitch-ripper",
+  "version": "0.0.1",
+  "description": "TwitchTV VOD ripper using Livestreamer",
+  "main": "twitch-ripper.js",
+  "scripts": {
+    "test": "mocha --reporter spec --timeout 60000",
+    "debug": "mocha debug --reporter spec --timeout 60000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dsalsman-rdi/twitch-ripper.git"
+  },
+  "keywords": [
+    "twitch",
+    "twitchtv",
+    "oauth2",
+    "vod",
+    "livestreamer"
+  ],
+  "author": "Dillon Salsman Pressley (dillon.salsman@gmail.com)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/dsalsman-rdi/twitch-ripper.git"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "command-line-args": "^2.1.4",
+    "setimmediate": "^1.0.4",
+    "twitchy-nonblocking": "^0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  }
+}
