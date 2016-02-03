@@ -4,7 +4,7 @@
 
 2.) Install livestreamer: https://github.com/chrippa/livestreamer/releases/download/v1.12.2/livestreamer-v1.12.2-win32-setup.exe
 
-3.) Install vlc media player: http://www.videolan.org/vlc/download-windows.html
+3.) Install VLC media player: http://www.videolan.org/vlc/download-windows.html
 
 4.) Download and extract twitch-ripper.zip
 
