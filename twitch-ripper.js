@@ -19,6 +19,11 @@ function fileExists(path) {
   }
 }
 
+String.prototype.replaceAll = function(search, replacement) {
+    var target = this;
+    return target.split(search).join(replacement);
+};
+
 var livestreamer = "C:\\Program Files (x86)\\Livestreamer\\livestreamer.exe";
 var livestreamer32 = "C:\\Program Files\\Livestreamer\\livestreamer.exe";
 
@@ -46,8 +51,8 @@ client._get("channels/" + options.channel + "/videos?limit=100&broadcasts=true",
 		var title = video["title"];
 		var id = video["broadcast_id"];
 		var url = video["url"];
-		title = title.replace("|", "-");
-		title = title.replace("/", " of ");
+		title = title.replaceAll("|", "-");
+		title = title.replaceAll("/", " of ");
 		var file = id + " - " + title + ".mp4";
 
 		if(!fileExists(file)) {
