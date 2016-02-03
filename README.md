@@ -6,7 +6,7 @@
 
 3.) Install VLC media player: http://www.videolan.org/vlc/download-windows.html
 
-4.) Download and extract twitch-ripper.zip (click Download Zip in the top-right corner if you're reading this from the project page)
+4.) Download and extract twitch-ripper.zip (click `Download ZIP` in the top-right corner if you're reading this from the project page)
 
 5.) Using command prompt, navigate to extracted files. If you don't know what this means: use Windows Explorer to navigate to the folder containing twitch-ripper.bat, delete everything in the URL bar (C:\bla\bla\twitch-ripper), type `cmd`, hit enter.
 
