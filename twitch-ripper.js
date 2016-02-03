@@ -23,7 +23,7 @@ var livestreamer = "C:\\Program Files (x86)\\Livestreamer\\livestreamer.exe";
 var livestreamer32 = "C:\\Program Files\\Livestreamer\\livestreamer.exe";
 
 if(!fileExists(livestreamer))  {
-	if(!fileExists(livestreamer)){
+	if(!fileExists(livestreamer32)){
 		console.log("You haven't installed Livestreamer.");
 		return;
 	}
